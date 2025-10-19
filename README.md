@@ -1,5 +1,4 @@
 ## Author: Daniel Abdi
-[TOC]
 
 # Introduction
 
