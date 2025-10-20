@@ -22,9 +22,10 @@ To pair, please use the information at the esp-matter [docs](https://docs.espres
 
 ![Pairing Code](assets/Pairing-Code.png)
 
+Here's what it'll look like after pairing:
+
 <img src="assets/SmartThings.png" alt="SmartThings" width="25%">
 
-Here's what it'll look like after pairing. 
 
 
 
