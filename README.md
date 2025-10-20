@@ -22,7 +22,7 @@ To pair, please use the information at the esp-matter [docs](https://docs.espres
 
 ![Pairing Code](assets/Pairing-Code.png)
 
-![SmartThings](assets/SmartThings.png)
+<img src="assets/SmartThings.png" alt="SmartThings" width="25%">
 
 Here's what it'll look like after pairing. 
 
@@ -35,7 +35,8 @@ The main components of this project are the SCD4X drivers from Sensirion, includ
 ### Clusters
 Currently, the device contains 2 clusters of importance to us: The Air Quality cluster, which is mandatory for an Air Quality device, and the CO2 concentration cluster. I've also added the CO2 concentration feature flag, instead of using a level-approach (Like a bad-moderate-good-etc scale) read more in the cluster definitions from the CSA to understand these feature flags and which might work for your use case. Upon commissioning into the Matter fabric, these values are updated every ~5 seconds. SmartThings will be helpful and show you an hourly average of the readings going back 24 hours, so you can see how the CO2 in a space changes over the course of a day or so, even when you aren't looking at the app.
 
-![CO2 graph](assets/CO2Graph.png)
+<img src="assets/CO2Graph.png" alt="CO2 Graph" width="25%">
+
 
 
  If you make a change to the features or clusters on the device, make sure to erase-flash, delete from your Matter app, and re-pair, otherwise they may not show up. 
